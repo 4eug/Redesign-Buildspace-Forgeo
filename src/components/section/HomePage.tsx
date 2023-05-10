@@ -49,12 +49,12 @@ export default function HomeHero() {
       </div>
 
       {/* Tablet Cards */}
-      <div className="relative mt-10 right-[20%] lg:hidden md:block hidden">
+      {/* <div className="relative mt-10 right-[20%] lg:hidden md:block hidden">
         <CardLine3 />
       </div>
       <div className="absolute top-[800px] right-[-21%] lg:hidden md:block hidden">
         <CardLine4 />
-      </div>
+      </div> */}
     </div>
   );
 }
