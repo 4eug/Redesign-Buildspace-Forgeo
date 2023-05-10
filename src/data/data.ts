@@ -36,7 +36,7 @@ export const Cardline2 = [
   },
   {
     image: '/nft-robotgirl.png',
-    text: 'Interested in designing and building robots',
+    text: 'Interested in building robots',
   },
   {
     image: '/nft-girl.png',
