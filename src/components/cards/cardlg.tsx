@@ -27,8 +27,10 @@ export default function CardLg({ imageSrc, text }: CardLgProps) {
         </div>
       </div>
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-6">
-        <div className="flex justify-center items-center px-[12px] py-[12px] bg-black/70 h-[52px] w-[152px] rounded-[14px]">
-          <h1 className="text-center">{text}</h1>
+        <div className="flex justify-center items-center px-[12px] py-[12px] bg-black/70 h-[52px] w-[172px] rounded-[14px]">
+          <h1 className="text-center overflow-hidden overflow-ellipsis">
+            {text}
+          </h1>
         </div>
       </div>
     </div>
