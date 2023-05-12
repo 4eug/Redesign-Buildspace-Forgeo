@@ -7,14 +7,16 @@ export const Footer = () => {
     <footer className="">
       <Container>
         <FooterContainer>
-          <div className="flex gap-4 justify-center items-center">
-            <div className="flex gap-2">
+          <div className="lg:flex gap-4 justify-center items-center">
+            <div className="flex gap-2 justify-center items-center">
               <Twitter />
               <Discord />
             </div>
-            <h1>Faqs</h1>
-            <h1>About us</h1>
-            <h1>Join</h1>
+            <div className="flex gap-4 justify-center items-center lg:mt-0 mt-2">
+              <a href="">Faqs</a>
+              <a href="">About us</a>
+              <a href="">Join</a>
+            </div>
           </div>
         </FooterContainer>
       </Container>

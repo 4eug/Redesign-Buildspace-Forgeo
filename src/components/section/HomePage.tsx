@@ -22,16 +22,16 @@ export default function HomeHero() {
             <br />
             backstories, and abilities.
           </HeroSubtitle>
-          <div className="flex lg:justify-start md:justify-center md:items-center lg:gap-[24px] md:gap-[20px] gap-[16px]">
+          <div className="flex-row space-x-3 lg:justify-start md:justify-center md:items-center">
             <Button
-              className="h-[52px] w-[161px] flex gap-[5px] font-bold items-center text-black justify-center bg-white"
+              className="lg:h-[52px] lg:w-[161px] md:h-[48px] md:w-[131px] h-[48px] w-[141px] flex  font-bold items-center text-black justify-center bg-white"
               target="_blank"
               rel="noopener noreferrer"
             >
               Get Started
             </Button>
             <Button
-              className="h-[52px] w-[161px] flex gap-[5px] font-bold items-center text-white justify-center border"
+              className="lg:h-[52px] lg:w-[161px] md:h-[48px] md:w-[131px] h-[48px] w-[141px] flex  font-bold items-center text-white justify-center border"
               target="_blank"
               rel="noopener noreferrer"
             >
