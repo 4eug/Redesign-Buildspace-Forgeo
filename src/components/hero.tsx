@@ -26,7 +26,7 @@ export const HeroSubtitle = ({ children, className }: HeroElementProps) => {
   return (
     <p
       className={classNames(
-        'mb-6 lg:text-[21px] md:text-[16px] text-[12px] font-light lg:leading-[22px] md:leading-[21.86px] leading-[16.39px]',
+        'mb-6 lg:text-[21px] md:text-[16px] text-[12px] font-light lg:leading-[30.05px] md:leading-[21.86px] leading-[16.39px]',
         className
       )}
     >
@@ -36,5 +36,5 @@ export const HeroSubtitle = ({ children, className }: HeroElementProps) => {
 };
 
 export const Hero = ({ children }: HeroProps) => {
-  return <div className="lg:text-start text-center flex">{children}</div>;
+  return <div className="lg:text-start text-center grid">{children}</div>;
 };
