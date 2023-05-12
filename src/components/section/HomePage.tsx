@@ -41,20 +41,12 @@ export default function HomeHero() {
         </div>
       </Hero>
       {/* Desktop Cards */}
-      <div className="absolute top-0 lg:left-[60%] lg:block hidden w-full">
+      <div className="fixed top-0 left-0  lg:left-[60%] lg:block hidden w-full">
         <CardLine1 />
       </div>
-      <div className="absolute top-0 lg:left-[78%] lg:block hidden w-full">
+      <div className="fixed top-0 left-0  lg:left-[78%] lg:block hidden w-full">
         <CardLine2 />
       </div>
-
-      {/* Tablet Cards */}
-      {/* <div className="relative mt-10 right-[20%] lg:hidden md:block hidden">
-        <CardLine3 />
-      </div>
-      <div className="absolute top-[800px] right-[-21%] lg:hidden md:block hidden">
-        <CardLine4 />
-      </div> */}
     </div>
   );
 }
