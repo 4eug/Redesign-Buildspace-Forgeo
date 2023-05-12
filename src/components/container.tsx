@@ -43,7 +43,7 @@ export const FooterContainer = ({
   return (
     <div
       className={classNames(
-        'mt-32 lg:px-[92px] lg:py-[8px] bottom-10 w-full flex lg:justify-start justify-center items-center ',
+        '2xl:mt-56 lg:mt-32 mt-64 lg:px-[92px] lg:py-[8px] bottom-10 w-full flex lg:justify-start justify-center items-center ',
         className
       )}
     >

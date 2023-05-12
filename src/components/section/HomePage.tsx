@@ -41,10 +41,10 @@ export default function HomeHero() {
         </div>
       </Hero>
       {/* Desktop Cards */}
-      <div className="fixed top-0 left-0  lg:left-[60%] lg:block hidden w-full">
+      <div className="fixed top-0 left-0 2xl:left-[60%]  lg:left-[60%] lg:block hidden w-full">
         <CardLine1 />
       </div>
-      <div className="fixed top-0 left-0  lg:left-[78%] lg:block hidden w-full">
+      <div className="fixed top-0 left-0 2xl:left-[76%]  lg:left-[78%] lg:block hidden w-full">
         <CardLine2 />
       </div>
     </div>
