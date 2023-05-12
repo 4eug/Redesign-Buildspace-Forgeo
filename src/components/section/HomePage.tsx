@@ -10,7 +10,7 @@ export default function HomeHero() {
   return (
     <div className="grid">
       <Hero>
-        <div className="lg:mt-8">
+        <div className="2xl:mt-16 lg:mt-8">
           <HeroTitle>
             transform your
             <br /> ideas into reality <br />
